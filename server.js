@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var connect = require('./lib/connect'), //requires custom connect
+var connect = require('connect'), //requires custom connect
     captiveLandingPage = require('./lib/captive-landing-page'),
     connectProxy = require('./lib/connect-proxy'),
     filterDirectHttp = require('./lib/filter-direct-http'),
